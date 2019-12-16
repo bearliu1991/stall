@@ -1,0 +1,220 @@
+// 引用图片简写
+bgNormal(n)
+  background:url(n) center center no-repeat
+bgFull(n)
+  background:url(n) center center no-repeat
+  background-size:cover
+bgAll(n)
+  background:url(n) center center no-repeat
+  background-size:100% 100%
+backgroundImg()
+  background-repeat:no-repeat
+  background-position :center center
+bgCover()
+  background-size:cover
+bgColor(n=#fff)
+	background-color:n
+boxSizing()
+  box-sizing:border-box
+color(color=#fff)
+  color:color
+opacity(n)
+  opacity:n
+bgRed()
+  background-color:#ff6681
+bgGrey()
+  background-color:#dcdddd
+radius(n)
+  -webkit-border-radius: n
+  -moz-border-radius: n
+  border-radius: n
+radiusTop(n)
+  border-top-left-radius: n
+  border-top-right-radius: n
+radiusLeft(n)
+  border-top-left-radius: n
+  border-bottom-left-radius: n
+radiusRight(n)
+  border-top-right-radius: n
+  border-bottom-right-radius: n
+radiusBottom(n)
+  border-bottom-left-radius: n
+  border-bottom-right-radius: n
+cursor(n=pointer)
+  cursor:n
+boxShadow(n=0 0 5px 1px #ddd)
+  box-shadow: n
+setMiddle()
+  display:flex
+  justify-content: center
+  align-items: center
+setMiddleContainer()
+  display: table
+setMiddleContent()
+  display:table-cell
+setMiddleContentVertical()
+  vertical-align:middle
+setStart()
+  display:flex
+  justify-content: flex-start
+  align-items: center
+setEnd()
+  display:flex
+  justify-content: flex-end
+  align-items: center
+setAround()
+  display:flex
+  justify-content: space-around
+  align-items:center
+setBetween()
+  display:flex
+  justify-content: space-between
+  align-items:center
+setColumn()
+  display:flex
+  flex-direction:column
+bgColor(color=#fff)
+  background-color:color
+gradientRed()
+  background-image: -webkit-linear-gradient(to bottom, #e7556e 0, #f95867 100%)
+  background-image:linear-gradient(to bottom, #e7556e 0, #f95867 100%)
+gradientBlue()
+  background: #5397fa /* ie polyfill */
+  background-image:-webkit-linear-gradient(to bottom, #25d1ff 0, #5397fa 100%)
+  background-image:linear-gradient(to bottom, #25d1ff 0, #5397fa 100%)
+gradient(n)
+  background-image:-webkit-linear-gradient(n)
+  background-image:linear-gradient(n)
+gradientIE(type, startColor, endColor)
+  if support-for-ie
+    filter unquote('progid:DXImageTransform.Microsoft.gradient(startcolorstr=' + startColor + ',endcolorstr=' + endColor + ',gradientType = ' + type +')')
+ellipsis()
+  overflow:hidden
+  white-space:nowrap
+  text-overflow:ellipsis
+commonBtn()
+  background-color:#ff6681
+  color:#fff
+colorRed()
+	color:#ff6a76
+fn(n=14px)
+  font-size:n
+vertical(n)
+  height:n
+  line-height:n
+column()
+  display:flex
+  flex-direction:column
+relative()
+  position:relative
+absolute()
+  position:absolute
+fixed()
+  position:fixed
+alignL()
+  text-align:left
+center()
+  text-align:center
+alignR()
+  text-align:right
+square(n)
+  width:n
+  height:n
+  line-height:n
+  text-align:center
+mr(n)
+  margin-right:n
+ml(n)
+  margin-left:n
+mt(n)
+  margin-top:n
+mb(n)
+  margin-bottom:n
+padr(n)
+  padding-right:n
+padl(n)
+  padding-left:n
+padt(n)
+  padding-top:n
+padb(n)
+  padding-bottom:n
+inline()
+  display:inline-block
+fl()
+  float:left
+fr()
+  float:right
+clear()
+  content: " "
+  display: table
+  clear: both
+  // &:after
+  //   content: " "
+  //   display: table
+  //   clear: both
+boxCommon()
+  box-shadow:2px 2px 5px 0px #ddd
+block()
+  display:block
+bold()
+  font-weight: bold
+flex_()
+  display:flex
+hover_bgclolr()
+  background-color: rgb(241, 241, 241)
+resetScrollBar()
+  &::-webkit-scrollbar-track
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3)
+    background-color: #F5F5F5
+  &::-webkit-scrollbar
+    width: 6px
+    background-color: #F5F5F5
+  &::-webkit-scrollbar-thumb
+    background-color: #C1C1C1
+border_()
+  border:1px solid #ddd
+bort(n = 1px solid #ddd)
+  border-top:n
+borr(n = 1px solid #ddd)
+  border-right:n
+borl(n = 1px solid #ddd)
+  border-left:n
+borb(n = 1px solid #ddd)
+  border-bottom:n
+weight()
+  font-weight:bold
+topLeftTriangle(n, colors)
+  width:0
+  height:0
+  border-width:n n 0 0
+  border-style:solid
+  border-top-color:colors
+  border-right-color:transparent
+topRightTriangle(n, colors)
+  width:0
+  height:0
+  border-width:n 0 0 n
+  border-style:solid
+  border-top-color:colors
+  border-left-color:transparent
+normal()
+  font-weight:normal
+placeholder(n)
+  input::-webkit-input-placeholder { /* WebKit browsers */
+    color: n;
+  }
+  input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: n;
+  }
+  input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: n;
+  }
+  input:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: n;
+  }
+css3Middle()
+  position fixed
+  z-index 100
+  left 50%
+  top 50%
+  transform translate(-50%, -50%)

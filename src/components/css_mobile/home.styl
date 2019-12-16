@@ -1,0 +1,263 @@
+.el-popper
+  .mobile_ul
+    li
+      padding:0.15rem
+    a
+      color(#000)
+      fn(0.3rem)
+      inline()
+      width:100%
+      height:100%
+    .toggle_img
+      height:0.5rem
+
+#home.mobile_home
+  relative()
+  min-width:auto
+  .app_main
+    width:100%
+  .header_bg
+    relative()
+    mt(1.3rem)
+    center()
+    .top_bg
+      width:100%
+    .header_wrap
+      setBetween()
+      height:1.3rem
+      width: 90%
+      margin:0 auto
+      a
+        fl()
+        img
+          width:100%
+          height:100%
+    .header_cont
+      absolute()
+      top:0
+      right:0
+      left:0
+      bottom:0
+      color()
+      .app_main
+        height: 100%
+        absolute()
+        top:0
+        left:0
+        bottom:0
+        right:0
+        header
+          position:fixed
+          top:0
+          left:0
+          right:0
+          z-index:5
+          color()
+          transition:all 0.25s ease-in-out
+          img
+            height:0.8rem
+            &:last-child
+              height:0.6rem
+        .logo_info
+          margin:auto auto
+          letter-spacing: 3px
+          .fn34
+            mb(0.4rem)
+            fn(0.5rem)
+          .fn24
+            fn(0.4rem)
+        .entrance
+          setMiddle()
+          width:100%
+          absolute()
+          top:3.2rem
+          fn(0)
+          li
+            height:4rem
+            fn(0.3rem)
+            padding:10px
+            setColumn()
+            bgColor(red)
+            &:first-child
+              radiusLeft(4px)
+              mr(-2px)
+              background-image:linear-gradient(to bottom, #F19058 0, #F25432 100%)
+              a
+                color(#F25E38)
+            &:last-child
+              radiusRight(4px)
+              background-image:linear-gradient(to bottom, #0BC5F4 0, #3475F5 100%)
+              a
+                color(#2C86F5)
+            a
+              setMiddle()
+              width:100%
+              height:100%
+              &:hover
+                transform: scale(1.2)
+                transition: transform 0.2s
+              img
+                mb(-0.05rem)
+                height:0.3rem
+            .title
+              relative()
+              height:70px
+              setMiddle()
+              mb(1rem)
+              i
+                fn(0.4rem)
+                mt(1rem)
+              span
+                absolute()
+                top:0
+                left:0
+                fn(0.6rem)
+                inline()
+                square(1.5rem)
+                radius(50%)
+                bgColor(rgba(0,0,0,0.1))
+            p
+              fn(0.25rem)
+              mb(40px)
+            a
+              inline()
+              margin:0 auto
+              fn(0.3rem)
+              radius(3px)
+              width:2rem
+              vertical(0.8rem)
+              bgColor()
+
+#home.mobile_home
+  .section_main
+    padt(3.5rem)
+    .decent_cont
+      center()
+      &.traditional_problems
+        padt(1.4rem)
+      .title
+        font-family: '黑体'
+        fn(0.46rem)
+        inline()
+        mb(10px)          
+      .title_border
+        borb(5px solid #4762E2)
+        width:100px
+        margin:0 auto
+        mb(40px)
+      .question
+        fn(0.4rem)
+        mb(20px)
+      .project_intro
+        letter-spacing: 1px
+        line-height:0.4rem
+        fn(0.3rem)
+      .equipment
+        width:90%
+        mt(0.7rem)
+      .problems
+        overflow:hidden
+        li
+          fl()
+          relative()
+          color()
+          alignL()
+          width:50%
+          padding:0.2rem
+          boxSizing()
+          >img
+            width:100%
+          >div
+            absolute()
+            radius(5px)
+            top:0.2rem
+            left:0.2rem
+            right:0.2rem
+            bottom:0.2rem
+            padding:0.2rem
+            setColumn()
+            align-items:flex-start
+            bgColor(rgba(0,0,0,0.5))
+            letter-spacing:2px
+            >img
+              width:1rem
+            p
+              mt(0.3rem)
+              mb(0.4rem)
+              fn(0.32rem)
+            div
+              line-height:0.5rem
+              fn(0.28rem)
+              letter-spacing:1px
+      .icon_list
+        relative()
+        img
+          width:1.5rem
+          height:1.5rem
+          mb(10px)
+        ul
+          setBetween()
+          width:90%
+          ml(5%)
+          &.first_ul
+            top:120px
+            mb(30px)
+          &.sec_ul
+            top:400px
+          li
+            fn(0.3rem)
+            setColumn()
+            color(#000)
+      .stalls
+        overflow:hidden
+        li
+          relative()
+          width:20%
+          boxSizing()
+          padding:0.2rem
+          fl()
+          img
+            width:100%
+            height:100%
+          >div
+            absolute()
+            top:0.5rem
+            left:0
+            right:0
+            bottom:0
+            setColumn()
+            span
+              fn(0.3rem)
+              font-family: '黑体'
+              color(#000)
+              mb(0.4rem)
+              color(#9499AA)
+            i
+              fn(0.3rem)
+              color()
+      .need_advice
+        mt(-20px)
+        color(#000)
+        mb(1rem)
+        fn(0.3rem)
+      .contacts
+        setColumn()
+        mb(1rem)
+        align-items: flex-start
+        ml(1rem)
+        p
+          fn(0.4rem)
+          bold()
+          color(#000)
+          alignL()
+          mb(0.4rem)
+        ul
+          fn(0.32rem)
+          color(#000)
+          alignL()
+          li
+            margin:0.25rem 0
+        .amap-wrapper
+          width: 90%
+          ml(0)
+          height: 5rem

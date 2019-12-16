@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta content="telephone=no,email=no" name="format-detection">
+    <!-- <script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script> -->
+    <title>齐货网络</title>
+    <% if (process.env.NODE_ENV === 'development') { %>
+      <script src="/static/flexible/flexible.debug.css"></script>
+      <script src="/static/flexible/flexible.debug.js"></script>
+    <% } %>
+    <% if (process.env.NODE_ENV === 'production') { %>
+      <script src="/static/flexible/flexible.css"></script>
+      <script src="/static/flexible/flexible.js"></script>
+    <% } %>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>

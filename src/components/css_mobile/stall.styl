@@ -1,0 +1,273 @@
+.el-popper
+  .mobile_ul
+    li
+      a
+        color(#000)
+        fn(0.3rem)
+        inline()
+        padding:0.15rem
+        width:100%
+        height:100%
+    .toggle_img
+      height:0.5rem
+
+#stall.mobile_stall
+  relative()
+  min-width: auto
+  .app_main
+    width:100%
+    margin:0 auto
+  .header_bg
+    relative()
+    width:100%
+    mt(1.3rem)
+    center()
+    .top_bg
+      width:100%
+    .header_cont
+      absolute()
+      top:0
+      right:0
+      left:0
+      bottom:0
+      color()
+      .app_main
+        relative()
+        height: 100%
+        setColumn()
+        header
+          position:fixed
+          top:0
+          left:0
+          right:0
+          z-index:5
+          color()
+          transition:all 0.25s ease-in-out
+          a
+            img
+              height:0.8rem
+          span
+            img
+              height:0.6rem
+          .header_wrap
+            setBetween()
+            height:1.3rem
+            width: 90%
+            margin:0 auto
+          ul
+            setEnd()
+            fn(12px)
+            li
+              margin:0 15px
+              a
+                inline()
+                color()
+                padb(5px)
+                &.active
+                  border-bottom:3px solid #fff
+        .logo_info
+          alignL()
+          letter-spacing: 1px
+          margin:auto 0
+          ml(0.2rem)
+          .fn34
+            fn(0.32rem)
+            mb(30px)
+          .fn24
+            fn(0.28rem)
+        .entrance
+          absolute()
+          width:96%
+          left:2%
+          margin:0 auto
+          padt(0.6rem)
+          padb(0.5rem)
+          top:3.3rem
+          bgColor()
+          radius(10px)
+          boxShadow(0 1px 20px 2px #999)
+          ul
+            setAround()
+            li
+              padding:0.2rem
+              width:auto
+              height:auto
+              setColumn()
+              align-items:center
+              img
+                width:1.4rem
+                height:1.4rem
+              .text
+                color(#031D5B)
+                fn(0.3rem)
+                margin:0.3rem 0
+              .desc
+                color(#5B6C94)
+                margin: 0.2rem 0
+                fn(0.28rem)
+              .caculation
+                color(#5B6C94)
+                fn(0.3rem)
+
+#stall.mobile_stall
+  .decent_cont
+    &.turnover
+      mb(50px)
+    .title
+      font-family: '黑体'
+      fn(0.46rem)
+      inline()
+      mb(10px)    
+      color(#000)      
+    .title_border
+      borb(5px solid #4762E2)
+      width:100px
+      margin:0 auto
+      mb(0.5rem)
+  .section_main
+    padt(6rem)
+    .decent_cont
+      padt(1.4rem)
+      center()
+      &.traditional_problems
+        mt(100px)
+      .question
+        fn(0.3rem)
+      .project_intro
+        line-height:30px
+        fn(12px)
+      .equipment
+        width:90%
+        mt(0.7rem)
+      .problems
+        setBetween()
+        li
+          relative()
+          color()
+          alignL()
+          >img
+            width:100%
+          >div
+            absolute()
+            radius(5px)
+            top:20px
+            left:25px
+            right:33px
+            bottom:40px
+            padding:25px 20px
+            setColumn()
+            align-items:flex-start
+            bgColor(rgba(0,0,0,0.5))
+            letter-spacing:2px
+            >img
+              width:auto
+            p
+              mt(20px)
+              mb(30px)
+              fn(20px)
+            div
+              line-height:30px
+              fn(14px)
+      .icon_list
+        relative()
+        img
+          width:100%
+          height:100%
+        ul
+          absolute()
+          setBetween()
+          width:86%
+          ml(7%)
+          &.first_ul
+            top:120px
+          &.sec_ul
+            top:400px
+          li
+            fn(14px)
+            color(light_color)
+      .stalls
+        setAround()
+        li
+          relative()
+          img
+            width:100%
+            height:100%
+          >div
+            absolute()
+            top:60px
+            left:0
+            right:0
+            bottom:0
+            setColumn()
+            span
+              fn(26px)
+              font-family: '黑体'
+              color(#000)
+              mb(30px)
+              color(#9499AA)
+            i
+              fn(30px)
+              color()
+      .need_advice
+        mt(-20px)
+        color(light_color)
+        mb(50px)
+      .contacts
+        setBetween()
+        p
+          fn(16px)
+          bold()
+          color(#000)
+          alignL()
+          mb(60px)
+        ul
+          color(light_color)
+          fn(12px)
+          alignL()
+          li
+            margin:30px 0
+        .amap-wrapper
+          width: 70%
+          ml(20px)
+          height: 300px
+
+#stall.mobile_stall
+  .bottom_purchase
+    relative()
+    >div
+      absolute()
+      top:0
+      left:0
+      bottom:0
+      right:0
+      setColumn()
+      align-items:center
+      h3
+        color()
+        bold()
+        fn(0.36rem)
+        mt(0.4rem)
+      .wrapper
+        setMiddle()
+        mt(0.2rem)
+        .el-form
+          mr(0.3rem)
+          .el-form-item
+            mb(0)
+            .el-form-item__content
+              line-height:0.4rem
+              input
+                width:4rem !important
+                /* bgColor(rgba(255,255,255,0.5)) */
+                height:0.5rem
+                /* color() */
+                fn(0.2rem)
+        a
+          radius(3px)
+          bgColor()
+          padding:0 0.3rem
+          color(text_color)
+          vertical(0.5rem)
+          center()
+          cursor()
+          fn(0.2rem)

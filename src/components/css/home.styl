@@ -1,0 +1,251 @@
+#home
+  relative()
+  min-width: 1240px
+  .app_main
+    width:const_width
+    margin:0 auto
+  .header_bg
+    relative()
+    center()
+    .top_bg
+      width:100%
+    .header_wrap
+      setBetween()
+      height:80px
+      width: 1200px
+      margin:0 auto
+      a
+        fl()
+        img
+          width:100%
+          height:100%
+    .header_cont
+      absolute()
+      top:0
+      right:0
+      left:0
+      bottom:0
+      color()
+      .app_main
+        height: 100%
+        setColumn()
+        header
+          position:fixed
+          top:0
+          left:0
+          right:0
+          z-index:5
+          color()
+          transition:all 0.25s ease-in-out
+          &.active
+            bgColor()
+            boxShadow()
+            a
+              color(#333)
+              &.active
+                border-bottom-color:text_color !important
+          img
+            height:47px
+            width:auto
+          ul
+            setEnd()
+            fn(12px)
+            li
+              margin:0 15px
+              a
+                inline()
+                padb(5px)
+                &.active
+                  border-bottom:3px solid #fff
+        .logo_info
+          margin:auto auto
+          letter-spacing: 3px
+          .fn34
+            mb(30px)
+        .entrance
+          setMiddle()
+          width:100%
+          margin:0 auto
+          mb(-170px)
+          li
+            height:250px
+            width:50%
+            padding:10px
+            setColumn()
+            bgColor(red)
+            a
+              setMiddle()
+              width:100%
+              height:100%
+              &:hover
+                transform: scale(1.2)
+                transition: transform 0.2s
+              img
+                mb(-3px)
+                height:18px
+                ml(2px)
+            &:first-child
+              radiusLeft(4px)
+              background-image:linear-gradient(to bottom, #F19058 0, #F25432 100%)
+              a
+                color(#F25E38)
+            &:last-child
+              radiusRight(4px)
+              background-image:linear-gradient(to bottom, #0BC5F4 0, #3475F5 100%)
+              a
+                color(#2C86F5)
+            .title
+              relative()
+              height:70px
+              setMiddle()
+              mb(20px)
+              i
+                fn(24px)
+              span
+                absolute()
+                top:0
+                left:0
+                fn(36px)
+                inline()
+                square(70px)
+                radius(50%)
+                bgColor(rgba(0,0,0,0.1))
+            p
+              fn(16px)
+              mb(40px)
+            a
+              inline()
+              margin:0 auto
+              fn(16px)
+              radius(3px)
+              width:120px
+              vertical(50px)
+              bgColor()
+
+#home
+  .section_main
+    padt(200px)
+    .decent_cont
+      center()
+      &.traditional_problems
+        padt(100px)
+      .title
+        font-family: '黑体'
+        fn(30px)
+        inline()
+        mb(10px)          
+      .title_border
+        borb(5px solid #4762E2)
+        width:100px
+        margin:0 auto
+        mb(40px)
+      .question
+        fn(18px)
+        mb(20px)
+      .project_intro
+        line-height:30px
+        fn(12px)
+      .equipment
+        width:100%
+        mt(40px)
+      .problems
+        overflow:hidden
+        li
+          fl()
+          relative()
+          color()
+          alignL()
+          width:33.33%
+          padding:20px
+          boxSizing()
+          >img
+            width:100%
+          >div
+            absolute()
+            radius(5px)
+            top:20px
+            left:20px
+            right:20px
+            bottom:20px
+            padding:25px 20px
+            setColumn()
+            align-items:flex-start
+            bgColor(rgba(0,0,0,0.5))
+            letter-spacing:2px
+            >img
+              width:auto
+            p
+              mt(20px)
+              mb(30px)
+              fn(20px)
+            div
+              line-height:30px
+              fn(14px)
+      .icon_list
+        relative()
+        img
+          width:100%
+          height:100%
+          mb(10px)
+        ul
+          setBetween()
+          width:86%
+          ml(7%)
+          &.first_ul
+            top:120px
+            mb(30px)
+          &.sec_ul
+            top:400px
+          li
+            fn(14px)
+            color(light_color)
+      .stalls
+        overflow:hidden
+        li
+          relative()
+          width:20%
+          boxSizing()
+          padding:30px
+          fl()
+          img
+            width:100%
+            height:100%
+          >div
+            absolute()
+            top:60px
+            left:0
+            right:0
+            bottom:0
+            setColumn()
+            span
+              fn(26px)
+              font-family: '黑体'
+              color(#000)
+              mb(30px)
+              color(#9499AA)
+            i
+              fn(30px)
+              color()
+      .need_advice
+        mt(-20px)
+        color(light_color)
+        mb(50px)
+      .contacts
+        setBetween()
+        mb(70px)
+        p
+          fn(16px)
+          bold()
+          color(#000)
+          alignL()
+          mb(60px)
+        ul
+          color(light_color)
+          fn(12px)
+          alignL()
+          li
+            margin:30px 0
+        .amap-wrapper
+          width: 70%
+          ml(20px)
+          height: 300px
